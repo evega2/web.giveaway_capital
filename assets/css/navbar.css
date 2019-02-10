@@ -7,134 +7,194 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 li {
-  list-style-type: none;
-  display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 }
+
 .background {
-  -webkit-animation: AnimationName 22s ease infinite;
-  -moz-animation: AnimationName 22s ease infinite;
-  -o-animation: AnimationName 22s ease infinite;
-  animation: AnimationName 22s ease infinite;
+    -webkit-animation: AnimationName 22s ease infinite;
+    -moz-animation: AnimationName 22s ease infinite;
+    -o-animation: AnimationName 22s ease infinite;
+    animation: AnimationName 22s ease infinite;
 
 }
+
 @-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 78%
-  }
-  50% {
-    background-position: 100% 23%
-  }
-  100% {
-    background-position: 0% 78%
-  }
+    0% {
+        background-position: 0% 78%
+    }
+    50% {
+        background-position: 100% 23%
+    }
+    100% {
+        background-position: 0% 78%
+    }
 }
 
 @-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 78%
-  }
-  50% {
-    background-position: 100% 23%
-  }
-  100% {
-    background-position: 0% 78%
-  }
+    0% {
+        background-position: 0% 78%
+    }
+    50% {
+        background-position: 100% 23%
+    }
+    100% {
+        background-position: 0% 78%
+    }
 }
 
 @-o-keyframes AnimationName {
-  0% {
-    background-position: 0% 78%
-  }
-  50% {
-    background-position: 100% 23%
-  }
-  100% {
-    background-position: 0% 78%
-  }
+    0% {
+        background-position: 0% 78%
+    }
+    50% {
+        background-position: 100% 23%
+    }
+    100% {
+        background-position: 0% 78%
+    }
 }
 
 @keyframes AnimationName {
-  0% {
-    background-position: 0% 78%
-  }
-  50% {
-    background-position: 100% 23%
-  }
-  100% {
-    background-position: 0% 78%
-  }
+    0% {
+        background-position: 0% 78%
+    }
+    50% {
+        background-position: 100% 23%
+    }
+    100% {
+        background-position: 0% 78%
+    }
 }
-
 
 
 .navbar {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
+
 .jumbotron2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgba(255, 255, 255, 0.20);
+
 }
 
 .jumbotron2 .h1, .jumbotron2 h1 {
-  color: inherit
+    color: inherit
 }
 
 .jumbotron2 p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200
 }
 
 .jumbotron2 > hr {
-  border-top-color: #d5d5d5
+    border-top-color: #d5d5d5
 }
 
 .container .jumbotron2, .container-fluid .jumbotron2 {
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 6px
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px
 }
 
 .jumbotron2 .container {
-  max-width: 100%
+    max-width: 100%
 }
 
 @media screen and (min-width: 768px) {
-  .jumbotron2 {
-    padding-top: 48px;
-    padding-bottom: 48px
-  }
+    .jumbotron2 {
 
-  .container .jumbotron2, .container-fluid .jumbotron2 {
-    padding-right: 60px;
-    padding-left: 60px
-  }
+        padding-bottom: 48px
+    }
 
-  .jumbotron2 .h1, .jumbotron2 h1 {
-    font-size: 63px
-  }
+    .container .jumbotron2, .container-fluid .jumbotron2 {
+        padding-right: 60px;
+        padding-left: 60px
+    }
+
+    .jumbotron2 .h1, .jumbotron2 h1 {
+        font-size: 63px
+    }
 }
 
 #menu-outer {
-  height: 84px;
-  background: url(images/bar-bg.jpg) repeat-x;
+    height: 84px;
+    background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table {
-  display: table;   /* Allow the centering to work */
-  margin: 0 auto;
+    display: table; /* Allow the centering to work */
+    margin: 0 auto;
 }
 
 ul#horizontal-list {
-  min-width: 696px;
-  list-style: none;
-  padding-top: 20px;
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
 }
+
 ul#horizontal-list li {
-  display: inline;
+    display: inline;
+}
+
+.full-width {
+    background: rgba(35, 39, 42, 0.75);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    color: inherit
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200
+}
+
+.jumbotron > hr {
+    border-top-color: #d5d5d5
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px
+}
+
+.jumbotron .container {
+    max-width: 100%
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 48px;
+        padding-bottom: 48px
+    }
+
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding-right: 60px;
+        padding-left: 60px
+    }
+
+    .jumbotron .h1, .jumbotron
 }
