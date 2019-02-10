@@ -1,0 +1,811 @@
+body{
+    background-image: url("Background.jpg");
+    background-size: cover;
+
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Header{
+    width: 100%;
+    max-height: 1.4cm,8px;
+    background-color: #23272a;
+    margin: 0;
+    padding: 0;
+    z-index: 9998;
+    position: fixed;
+
+}
+.Header h1{
+    position: relative;
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    font-size: 0.9cm;
+    margin-top: 0.3cm,4px;
+    left: 10px;
+}
+.Header img{
+    float: left;
+    margin-top: 15px;
+    margin-left: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.Header .Images .Image2{
+    float: right;
+    overflow: hidden;
+    position: relative;
+    top:12px;
+    right: 60px;
+    width:30px;
+    height: auto;
+}
+
+.Header .Images .Image3{
+    float: right;
+    right: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    width: 30px;
+    height: auto;
+}
+.Header .Images{
+    float: right;
+
+}
+.container{
+    width: 100%;
+
+}
+.Text{
+    color: white;
+    overflow: hidden;
+    top: 320px;
+    right: 16%;
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    font-size: 1cm;
+}
+.Link .LinkImage{
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    top: 250px;
+    width: 50px;
+    right: 10%
+}
+.Page-Wrapper{
+    width: 1535px;
+}
+.Text2{
+    color: white;
+    overflow: hidden;
+    top: 220px;
+    right: 44%;
+    font-family:'Franklin Gothic Medium';
+
+    position: relative;
+    font-size: 1cm;
+}
+.Text3{
+    color: white;
+    overflow: hidden;
+    top: 190px;
+    left:22%;
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    font-size: 1cm;
+}
+.Images .Image2 a:hover{
+    background-color: grey;
+}
+.Images .Image2:hover{
+    opacity: 0.7;
+}
+.Images .Image1:hover{
+    opacity: 0.7;
+}
+.Header .Images .Image3:hover{
+    opacity: 0.7;
+}
+.Link .LinkImage:hover{
+    opacity: 0.7;
+}
+
+
+
+  /*ok*/
+  .topnav {
+  overflow: hidden;
+  background-color: #23272a;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 16px;
+  font-family:  Century Gothic;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #23272a;
+  margin-left:15%;
+
+}
+
+
+
+.topnav .icon {
+  display: none;
+
+}
+
+.dropdown {
+  float: left;
+  font-family:  Century Gothic;
+  font-weight: bold;
+
+  margin-bottom:5px;
+  margin-left: 20%;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: 1px solid #23272a;
+  font-weight: bold;
+
+  outline: none;
+  color: white;
+  padding: 4px 16px;
+  background-color:#23272a;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #23272a;
+  font-weight:bold;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  z-index: 99999;
+  overflow: visible;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:#23272a ;
+  border-color: #04f5cf ;
+
+  color:#04f5cf;
+
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-color:#04f5cf;
+  text-shadow: 2px,2px,4px#000000;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a, .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 20%;
+  }
+
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-right: 20%;
+
+
+  }
+}
+h2{
+    text-align: center;
+    font-family:  Century Gothic;
+
+    top: 500px;
+    color:#ffffff;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    font-family:  Century Gothic;
+    color: white;
+    bottom: 25px;
+}
+h3{
+    font-size: 30px;
+    font-family:  Century Gothic;
+    color: white;
+    text-align: center;
+    position: relative;
+
+    bottom: 45px;
+}
+h4{
+    font-size: 15px;
+    font-family:  Century Gothic;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom:70px;
+}
+
+.join_button{
+    background-color: transparent;
+    background: -webkit-linear-gradient(#04f5cf, #03f1b2);
+    -webkit-background-clip: text;
+
+    color:#04f5cf;
+    border: none;
+    position: relative;
+    font-size: 30px;
+    bottom: 60px;
+    font-family:  Century Gothic;
+    font-weight: 560;
+    padding: 2px 30px;
+    margin-left: 43%;
+}
+.join_button .external{
+    position: relative;
+    top: 4px;
+    height: 0.7cm;
+}
+.container-fluid{
+    background-color:transparent;
+    position: relative;
+    top: 230px;
+
+
+    width: 100%;
+    height: 10cm;
+}
+.join_button:hover{
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 601px) {
+    div.container-fluid {
+      font-size: 40px;
+
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.container-fluid {
+
+      font-weight: bold;
+      font-size: 22px;
+
+    }
+  }
+  @media screen and (max-width: 600px){
+      div.container-fluid p{
+          font-size:13px;
+      }
+  }
+  @media screen and (max-width: 600px){
+    div.container-fluid h3{
+        font-size:20px;
+        font-weight: bold;
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.container-fluid .join_button{
+        margin-left: 100px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.container-fluid h4{
+        font-size: 12px;
+
+    }
+}
+.Page2 .Header2{
+    width: 100%;
+    height: 70px;
+    color: white;
+    text-align: center;
+    position: relative;
+
+    background-color: rgba(35,39,42,0.5);
+    margin: 135px 0 0;
+    padding: 0;
+
+
+}
+h5{
+    position: relative;
+    top: 25px;
+
+    font-family: Century Gothic, serif;
+    font-weight: bold;
+}
+.Page2{
+    background-image: url("Backimage2.png");
+    min-height: 600px;
+    position: relative;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Page2 .Buttons .button1{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    background-color: rgba(35,39,42,1);
+    margin-left: 6%;
+    text-align: left;
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .Button1 p{
+    text-align: left;
+    position: relative;
+    float: left;
+    font-family:  Century Gothic;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .ButtonLink{
+    width: 30px;
+    bottom: 10px;
+    margin-left: 5%;
+
+}
+.Page2 .Buttons .button2{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    opacity: 75%;
+    margin-left: 15%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .button2 p{
+    text-align: left;
+    position: relative;
+    float: left;
+    font-family:  Century Gothic;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .Buttons .button3{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    opacity: 90%;
+    top: 50px;
+    margin-left: 12%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .button3 p{
+    text-align: left;
+    position: relative;
+    float: left;
+    font-family:  Century Gothic;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .Buttons .button4{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+
+    opacity: 75%;
+    margin-left: 6%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .button4 p{
+    text-align: left;
+    position: relative;
+    font-family:  Century Gothic;
+    float: left;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .Buttons .button5{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity:75%;
+    position: relative;
+    top: 70px;
+    margin-left: 15%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .button5 p{
+    text-align: left;
+    position: relative;
+    font-family:  Century Gothic;
+    float: left;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .Buttons .button6{
+    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    opacity: 90%;
+    top: 70px;
+    margin-left: 12%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.Page2 .Buttons .button6 p{
+    text-align: left;
+    position: relative;
+    float: left;
+    font-family:  Century Gothic;
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.Page2 .Buttons .buttonbeta {    width: 300px;
+    height: 2.5cm;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    opacity: 90%;
+    top: 70px;
+    margin-left: 12%;
+    background-color: rgba(35,39,42,1);
+    text-align: left;
+    color: #fff;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.Page2 .Buttons .buttonbeta p{
+    font-family: "Century Gothic";
+    font-size:0.8cm;
+    line-height: 1.5cm;
+    margin: 0;
+    font-weight: bold;
+}
+.testbutton {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #23272a), color-stop(1, #6c7c7c));
+    background:-moz-linear-gradient(top, #23272a 5%, #6c7c7c 100%);
+    background:-webkit-linear-gradient(top, #23272a 5%, #6c7c7c 100%);
+    background:-o-linear-gradient(top, #23272a 5%, #6c7c7c 100%);
+    background:-ms-linear-gradient(top, #23272a 5%, #6c7c7c 100%);
+    background:linear-gradient(to bottom, #23272a 5%, #6c7c7c 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#23272a', endColorstr='#6c7c7c',GradientType=0);
+    background-color:#23272a;
+    -moz-border-radius:9px;
+    -webkit-border-radius:9px;
+    border-radius:9px;
+    border:2px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    font-weight:bold;
+    padding:15px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+}
+.testbutton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #23272a));
+    background:-moz-linear-gradient(top, #6c7c7c 5%, #23272a 100%);
+    background:-webkit-linear-gradient(top, #6c7c7c 5%, #23272a 100%);
+    background:-o-linear-gradient(top, #6c7c7c 5%, #23272a 100%);
+    background:-ms-linear-gradient(top, #6c7c7c 5%, #23272a 100%);
+    background:linear-gradient(to bottom, #6c7c7c 5%, #23272a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#23272a',GradientType=0);
+    background-color:#6c7c7c;
+}
+.testbutton:active {
+    position:relative;
+    top:1px;
+}
+
+/*Button Hover */
+.Page2 .Buttons .button1:hover{
+    background-color: rgba(35,39,42,0.8);
+}
+.Page2 .Buttons .button2:hover{
+    background-color: rgba(35,39,42,0.8);
+}
+.Page2 .Buttons .button3:hover{
+    background-color: rgba(35,39,42,0.8);
+}
+.Page2 .Buttons .button4:hover{
+    background-color: rgba(35,39,42,0.8);
+}
+.Page2 .Buttons .button5:hover{
+    background-color: rgba(35,39,42,0.8);
+}
+.Page2 .Buttons .button6:hover{
+     background-color: rgba(35,39,42,0.8);
+ }
+/*This is the mobile phone screen res for the buttons*/
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button1{
+        margin: 0;
+        width: 200px;
+        height: 2cm;
+        margin-left:5%;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button1 p{
+        font-size: 20px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .ButtonLink{
+        bottom: 4px;
+        width: 20px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button2{
+        margin: 0;
+        width: 200px;
+        height: 2cm;
+        margin-left: 13%;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button2 p{
+        font-size: 20px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button3{
+        top: 60px;
+        margin: 0;
+        width: 200px;
+        height: 2cm;
+        margin-left: 5%;
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button3 p{
+        font-size: 20px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button4{
+        top: 60px;
+        margin: 0;
+        width: 200px;
+        height: 2cm;
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button4 p{
+        font-size: 20px;
+
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button5{
+        top: 70px;
+        margin: 0;
+        width: 200px;
+        height: 2cm;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Page2 .Buttons .Button5 p{
+        font-size: 20px;
+
+    }
+}
+.Footer{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: rgba(35,39,42,0.8);
+    height: 3.2cm;
+    
+    top:200px;
+    line-height: 60px;
+}
+.Footer p{
+    position: relative;
+    text-align: center;
+    bottom: -20;
+    font-size: 20px;
+    font-family:  Century Gothic;
+}
+.Footer .Contact{
+    position: relative;
+    margin-right: 180px;
+    float: right;
+    font-size:15px;
+}
+.Footer .Contact1{
+    position: relative;
+    float: right;
+    font-size: 15px;
+    left:140px;
+    line-height: 100px;
+}
+.Footer .Contact2{
+    position: relative;
+    float: right;
+    font-size: 15px;
+    left:370px;
+    bottom: 80px;
+}
+@media screen and (max-width: 600px){
+    div.Footer p{
+       font-size: 10px;
+       margin-left: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Footer .Contact{
+       font-size: 10px;
+       position: relative;
+       float: left;
+       margin-left: 260px;
+       bottom: 70px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Footer .Contact1{
+       font-size: 10px;
+       position: relative;
+       margin:0;
+
+       bottom: 140px;
+       left: 50px;
+       margin-right: 45%;
+
+       text-align: left;
+    }
+}
+@media screen and (max-width: 600px){
+    div.Footer .Contact2{
+       font-size: 10px;
+       position: relative;
+       margin:0;
+
+       bottom: 200px;
+       left: 50px;
+       margin-right: 42%;
+
+       text-align: left;
+    }
+}
+
