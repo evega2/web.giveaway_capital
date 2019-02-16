@@ -198,3 +198,25 @@ ul#horizontal-list li {
 
     .jumbotron .h1, .jumbotron
 }
+.full-width2 {
+    background: #2C2F33;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+a.link {
+    color: #03f1b2;
+}
+
+a.link:hover {
+    color: #05f5d0;
+}
+
+.btnalignment {
+    position: center;
+    height:70px;
+    width:300px;
+}
